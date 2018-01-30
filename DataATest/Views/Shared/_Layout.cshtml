@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    
+    <environment names="Development">
+        <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+        <link href="~/lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+        <link href="~/css/site.css" rel="stylesheet" />
+        @*<link href="~/lib/popper.js/dist/umd/popper.js"rel="stylesheet" />*@
+
+    </environment>
+    <environment names="Staging,Production">
+        <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="~/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+        <link href="~/css/site.css" rel="stylesheet" />
+        @*<link href="~/lib/popper.js/dist/umd/popper.min.js"rel="stylesheet" />*@
+    </environment>
+</head>
+<body>
+    
+    <a asp-controller="Home" asp-action="Contact">Contact</a>
+
+    <section class="container">
+       
+        @RenderBody()
+    </section>
+
+    <environment names="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <script src="//ajax.aspnetcdn.com/ajax/jquery/jquery-3.2.1.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="windows.JQuery">
+        </script>
+        <script src="//ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="windows.JQuery && window.JQuery.fn && window.JQuery.fn.modal">
+        </script>
+    </environment>
+    @RenderSection("scripts", false)
+</body>
+</html>

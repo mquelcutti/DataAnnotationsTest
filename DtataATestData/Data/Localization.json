@@ -1,0 +1,84 @@
+[
+  {
+    "Key": "Home",
+    "ResourceKey": "global",
+    "Text": "Home",
+    "LocalizationCulture": "en-US"
+  },
+  {
+    "Key": "Contact",
+    "ResourceKey": "global",
+    "Text": "Contact",
+    "LocalizationCulture": "en-US"
+  },
+  {
+    "Key": "About",
+    "ResourceKey": "global",
+    "Text": "About",
+    "LocalizationCulture": "en-US"
+  },
+  {
+    "Key": "WelcomeMessage",
+    "ResourceKey": "global",
+    "Text": "Well this is the default welcome",
+    "LocalizationCulture": "en-US"
+  },
+  {
+    "Key": "bye",
+    "ResourceKey": "HomeController",
+    "Text": "Test for controller",
+    "LocalizationCulture": "en-US"
+  },
+  {
+    "Key": "MessageTextRangeError",
+    "ResourceKey": "global",
+    "Text": "{0} should be between {1} and {2}",
+    "LocalizationCulture": "en-US"
+  },
+  {
+    "Key": "Message",
+    "ResourceKey": "global",
+    "Text": "Message:",
+    "LocalizationCulture": "en-US"
+  },
+  {
+    "Key": "MessageTextRequiredError",
+    "ResourceKey": "global",
+    "Text": "{0} is required",
+    "LocalizationCulture": "en-US"
+  },
+  {
+    "Key": "Organisation",
+    "ResourceKey": "global",
+    "Text": "Organisation",
+    "LocalizationCulture": "en-US"
+  },
+  {
+    "Key": "User",
+    "ResourceKey": "global",
+    "Text": "User",
+    "LocalizationCulture": "en-US"
+  },
+  {
+    "Key": "Login",
+    "ResourceKey": "global",
+    "Text": "Login",
+    "LocalizationCulture": "en-US"
+  },
+  {
+    "Key": "Logout",
+    "ResourceKey": "global",
+    "Text": "Logout",
+    "LocalizationCulture": "en-US"
+  },
+  {
+    "Key": "FooterMessage",
+    "ResourceKey": "global",
+    "Text": "&copy; 2016 - Adding Localization",
+    "LocalizationCulture": "en-US"
+  }
+
+]
+
+
+    
